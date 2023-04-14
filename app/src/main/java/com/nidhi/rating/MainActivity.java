@@ -23,15 +23,15 @@ public class MainActivity extends AppCompatActivity {
         float ratingvalue = ratingBar.getRating();
 
         if (ratingvalue < 2) {
-            textView.setText("Rating" + ratingvalue + "\n we will try better next time");
+            textView.setText("Rating " + ratingvalue + "\n\n we will try better next time");
 
         } else if (ratingvalue <= 3 && ratingvalue >= 2) {
-            textView.setText("Rating" + ratingvalue + "\n we are constantly improving");
+            textView.setText("Rating " + ratingvalue + "\n\n  we are constantly improving");
 
         } else if (ratingvalue <= 4 && ratingvalue >= 3) {
-            textView.setText("Rating" + ratingvalue + "\n Hoping for better improvment ");
+            textView.setText("Rating " + ratingvalue + "\n\n Hoping for better improvment ");
         } else if (ratingvalue <= 5 && ratingvalue >= 4) {
-            textView.setText("Rating" + ratingvalue + "\n Thank you for the feedback");
+            textView.setText("Rating " + ratingvalue + "\n\n Thank you for the feedback");
         }
     }
 }
